@@ -1,0 +1,112 @@
+/*css*/
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: fraunces;
+    src: url(fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+body{
+    background-color:#F2EAE2;
+
+    display:flex;
+    height:100vh;
+    align-items:center;
+    color:#111111;
+}
+
+.desktop-img{
+    border-radius:15px 0px 0px 15px;
+}
+
+.mobile-img{
+    display:none;
+}
+
+#block{
+    width:600px;
+    display:flex;
+    margin:auto;
+    border-radius:15px;
+    background-color:white;
+}
+
+.desktop-img{
+    width:50%;
+}
+
+#info-block{
+    width:237px;
+    margin:auto;
+}
+
+.item-type{
+    font-family: montserrat;
+    color:#6C7289;
+    font-size:12px;
+    letter-spacing:5px;
+    text-transform:uppercase;
+}
+
+.name{
+    color:#1C232B;
+    font-family:fraunces;
+    font-weight:600;
+    font-size:32px;
+    line-height:32px;
+}
+
+.description{
+    font-family: montserrat;
+    color:#6C7289;
+    line-height:23px;
+    font-size:14px;
+}
+
+#price{
+    display:flex;
+    align-items:center;
+}
+
+.sale-price{
+    color:#3D8168;
+    font-family:fraunces;
+    font-weight:600;
+    font-size:32px;
+    line-height:32px;
+}
+
+.base-price{
+    margin-left:15px;
+    font-family: montserrat;
+    color:#6C7289;
+    font-size:13px;
+    line-height:23px;
+    text-decoration:line-through;
+}
+
+#add-cart{
+    width:100%;
+    height:48px;
+    background-color:#3D8168;
+    color:white;
+    font-family:montserrat;
+    font-weight:500;
+    font-size:14px;
+    margin-top:20px;
+    border-radius:10px;
+    text-align:center;
+    line-height:48px;
+}
+
+#add-cart:hover{
+    background-color:#1A4032;
+}
+
+.cart-icon{
+    height:16px;
+    vertical-align: middle;
+}
