@@ -11,7 +11,6 @@
 
 body{
     background-color:#F2EAE2;
-
     display:flex;
     height:100vh;
     align-items:center;
@@ -109,4 +108,28 @@ body{
 .cart-icon{
     height:16px;
     vertical-align: middle;
+}
+
+@media only screen and (max-width: 545px) {
+    #block{
+        width:343px;
+        height:611px;
+        display:block;
+        background-color:white;
+    }
+
+    .desktop-img{
+        display:none;
+    }
+    
+    .mobile-img{
+        display:block;
+        width:343px;
+        border-radius:15px 15px 0px 0px;
+    }
+
+    #info-block{
+        width:295px;
+        padding-top:15px;
+    }
 }
